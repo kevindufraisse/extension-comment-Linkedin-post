@@ -13,7 +13,7 @@ document.getElementById("autoreply-button").addEventListener("click", function()
         if (count) {
           cursor = cursor.nextElementSibling;
         }
-        cursor.style.backgroundColor = "yellow";
+        cursor.style.backgroundColor = "red";
         cursor.scrollIntoView();
         ++count;
       }
